@@ -1,0 +1,12 @@
+{
+  "globals": {
+    "document": true,
+    "localStorage": true
+  },
+  "parser": "@babel/eslint-parser",
+  "extends": ["airbnb", "prettier"],
+  "rules": {
+    "no-console": "off",
+    "no-unreachable-loop": "off"
+  }
+}
